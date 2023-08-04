@@ -1,0 +1,741 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    width: 100%;
+    height: 6465px; 
+    /*background: linear-gradient(180deg, #195AB4 1.04%, #13489A 6.46%, #0B2859 18.87%, #0B2859 38.47%, #05132A 58.72%, #05132A 65.57%, #05132A 100%);*/
+    background-image: url(imagens-videos/background-image.svg);
+}
+
+.container {
+    box-sizing: border-box;
+    margin: auto 0;
+    padding: 1rem;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.sobreposicao-fundo
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 100%;
+    height: 160%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+
+
+header {
+    width: 100%;
+    padding: 10px 0px;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: left;
+    color: #fff;
+}
+
+
+
+img {
+    width: 150px;
+}
+
+.menu {
+    min-width: 600px;
+    max-width: 1500px;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.menu nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 30px;  
+    width: 100%;
+    position: relative;
+} 
+
+.menu nav a:hover {
+    background-color: white;
+    color: #0A2655;
+    transition-duration: 1s;
+   
+}
+
+.btn button{
+    color: rgb(254, 254, 254);
+    border: 0;
+    cursor: pointer;
+}
+
+.btn button i {
+    width: 100%;
+    font-size: 200px;
+    color: white;
+}
+
+section #primeira_parte {
+    text-align: center;
+    padding: 0px;
+    position: absolute;
+}
+#slogan {
+    color: white;
+    font-family:'Poppins', sans-serif;
+    font-size: 50px;
+    padding: 0 5px;
+}
+
+#texto-excelencia
+{
+    font-family:'Poppins', sans-serif;
+    font-size: 40px;
+    color: white;
+    grid-row: 6;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#texto-tecnologia
+{
+    font-family:'Poppins', sans-serif;
+    font-size: 40px;
+    color: white;
+    grid-row: 7;
+    margin-left: 40px;
+}
+
+#hashbtgfaztech
+{
+    font-family:'Poppins', sans-serif;
+    font-size: 40px;
+    color: white;
+    grid-row: 18;
+    margin-top: -1%;
+    margin-left: 85%;
+}
+
+#primeira parte {
+    text-align: left;
+    margin: 0 auto;
+}
+
+#chamando {
+    font-family:'Poppins', sans-serif;
+    font-size: 30px;
+    align-items:  center;
+    margin: 0 auto;
+    grid-row: 17;
+    margin-top: 1%;
+    width: 30%;
+    height: 20%;
+    
+}
+
+#chamando p {
+    font-family:'Poppins', sans-serif;
+    align-items: center;
+    width: 500px;
+    margin: 30px;
+    background-color: #d2e5ff;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+      
+}
+
+.svg-container
+{
+   
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+        
+}
+
+.svg-container img {
+    display: block; /* Transforma a imagem em bloco para ocupar a largura completa */
+    width: 100%; /* Define a largura como 100% do elemento pai (div) */
+    height: auto; /* Mantém a proporção de altura original da imagem */
+  }
+  
+
+
+#logo-btg-faz-tech 
+{
+    display: flex;
+    width: 341.3px;
+    padding: 30px 0.9px 0px 0px;
+    margin-left: 4%;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-video-texto
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr; 
+    grid-gap: 15px;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 100%;
+    height: 6%;
+}
+
+#video
+{
+    grid-column: 1;
+    width: 90%;
+    height: 110%;
+    box-shadow: #05132A;
+    margin-left: 5%;
+}
+
+#texto-video-1 
+{
+    grid-column: 2;
+    grid-row: 1;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 7%;
+    margin-right: 15%;
+
+}
+
+#texto-video-2
+{
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 190px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+    margin-right: 15%;
+}
+
+#espacamento-neon
+{
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+.texto-neon
+{
+    font-family: 'Poppins', sans-serif;
+    text-transform:uppercase;
+    margin: 0 0 20px;
+    font-size:45px;
+    color: white;
+    -webkit-text-stroke: 0.01px;
+    -webkit-text-stroke-color: #87baff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#container-depoimento
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#ariane
+{
+    grid-column: 2;
+    width: 150px;
+
+}
+
+#milena
+{
+    grid-column: 5;
+    width: 150px;
+    text-align: center;
+}
+
+#felipe
+{
+    grid-column: 8;
+    width: 150px;
+}
+
+.fotos-pessoas
+{
+    width: 150px;
+    margin-top: 5px;
+
+}
+
+.nome
+{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-style: normal;
+    margin: 2px;
+}
+
+.ocupacao
+{
+    text-align: center;
+    margin-top: 0px;
+    color: #87baff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+    margin: 0;
+}
+
+.depoimento
+{
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+    margin: 0;
+    margin-left: -50%;
+    margin-right: -50%;
+
+}
+
+#nossos-programas-titulo
+{
+    margin-top: 50px;
+}
+
+
+
+.programas
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    width: 75%;
+    border-radius: 20px;
+    height: 300px;
+    background-color: #10408D;
+    margin: 50px; 
+    margin-left: 12%;   
+}
+
+.imagem-direita
+{
+    grid-column: 2;
+    width: 100%;
+    height: 400px;
+    border-radius: 0 0 20px;
+    
+}
+
+.imagem-esquerda
+{
+    grid-column: 1;
+    width: 100%;
+    height: 400px;
+    border-radius: 0 0 20px;
+}
+
+.titulo-programa-direita
+{
+    grid-column: 1;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-style: normal;
+    margin-top: 4%;
+}
+
+.titulo-programa-esquerda
+{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-style: normal;
+    margin-top: 4%;
+}
+
+.texto-programa-direita
+{
+    grid-column: 1;
+    justify-content: center;
+    margin-top: 0px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 1%;
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.texto-programa-esquerda
+{
+    grid-column: 2;
+    justify-content: center;
+    margin-top: 0px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+    text-align: justify;
+    text-align-last: justify;
+}
+
+#mulheres
+{
+    position: relative;
+}
+
+#imagem-mulher
+{
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 4%;
+}
+
+#texto-desenho-mulher
+{
+
+    position: absolute;
+    top: 50%; 
+    left: 55%; 
+    transform: translate(-50%, -50%); 
+    padding: 10px; 
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin-left: 2%;
+}
+
+#vagas-tech
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#todos-conteiners-vagas
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    gap: 20px;
+}
+
+.containers-vagas-disponiveis
+{
+    width: 80%;
+    border-radius: 20px;
+    height: 300px;
+    background-color: #10408D;
+}
+
+.titulo-vaga
+{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-style: normal;
+    margin-top: 18%;
+}
+
+.local-vaga
+{
+    justify-content: center;
+    margin-top: 0px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+    margin: 15px;
+    text-align: center;
+}
+
+footer {
+    background-color:#05132A;
+    height: 373px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo-rp {
+    width: 150px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    padding-bottom: 5px;
+}
+
+#partes-rodape {
+    list-style: none;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+#parte-redes ul {
+    list-style: none;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 7px;
+}
+
+#parte-redes ul li {
+    padding: 5px;
+    width: 30px;
+}
+
+.redes {
+    color: white;
+    font-size: 15px;
+    padding-left: 40px;
+    position: relative;
+    margin-bottom: 1px;
+}
+
+hr.redes {
+    size: 1px;
+    width: 220px;
+    position: relative;
+    left: 15px;
+}
+
+.instagram {
+    width: 25px;
+}
+
+.linkedin {
+    width: 25px;
+}
+
+.facebook {
+    width: 25px;
+}
+
+.telegram {
+    width: 25px;
+    padding-top: 3px;
+}
+
+.tiktok {
+    width: 25px;
+}
+
+.youtube {
+    width: 25px;
+    padding-top: 3px;
+}
+
+#conjunto-sac {
+    list-style: none;
+}
+
+#parte-sac {
+    padding-left: 20px;
+    padding-top: 4px;
+}
+
+#numeros-sac {
+    color: white;
+    font-size: 10px;
+    list-style: none;
+}
+
+.p-sac {
+    display: flex;
+}
+
+.nome-sac {
+    padding-left: 6px;
+    opacity: 70%;
+}
+
+.s-sac {
+    display: flex;
+    position: relative;
+    bottom: 12px;
+}
+
+.t-sac {
+    position: relative;
+    bottom: 24px;
+}
+
+hr.sac {
+    width: 285px;
+    position: relative;
+    right: 12px;
+    bottom: 1px;
+}
+
+p.sac {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 1px;
+}
+
+.endereco {
+    color: white;
+    opacity: 50%;
+    font-size: 10px;
+    padding-left: 30px;
+    padding-top: 9px;
+}
+
+.address {
+    size: 1px;
+    width: 96%;
+    opacity: 50%;
+}
+
+
+#numeros-central li {
+    color: white ;
+    list-style: none;
+    font-size: 10px;
+    list-style: none;
+    display: flex;
+}
+
+p.central {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 1px;
+}
+
+hr.central {
+    width: 290px;
+    position: relative;
+    right: 12px;
+    bottom: 2px;
+}
+
+.nome-central {
+    padding-left: 6px;
+    opacity: 70%;
+}
+
+.s-central {
+    position: relative;
+    bottom: 15px;
+}
+
+.p-central {
+    position: relative;
+    bottom: 3px;
+}
+
+#parte-central {
+    padding-top: 2px;
+}
+
+#redes-sociais {
+    width: 200px;
+    background-color: aquamarine;
+}
+
+#link-carreiras {
+    color: white;
+    padding-right: 5px;
+}
+
+#link-carreiras li {
+    list-style: none;
+    font-size: 10px;
+}
+
+hr.carreiras {
+    width: 190px;
+    position:relative;
+    bottom: 11px;
+    right: 12px;
+}
+
+.oportunidades {
+    position: relative;
+    bottom: 2px;
+}
+
+.vagas {
+    position: relative;
+    bottom: 2px;
+}
+
+.estudantes {
+    position: relative;
+    bottom: 2px;
+}
+
+.tech {
+    position: relative;
+    bottom: 2px;
+}
+
+#imagem-footer
+{
+    width: 100%;
+    height: 100%;
+    margin-top:
+}
+
+#footer
+{
+    width: 100%;
+    height: 150%;
+    margin-top: 5%;
+}
+
+

@@ -1,0 +1,101 @@
+{
+    "site": {
+      "nome": "Carreiras Tech BTG",
+      "url": "file:///C:/Users/Arthur%20Bezerra/Documents/BOOTCAMP%20-%20INTELI/BOOTCAMP-INTELI-PAGINA-FINAL/index.html",
+      "corPrincipal": "#0B2859",
+      "corSecundaria": "#05132A",
+      "fonte": "Poppins,sans-serif"
+    },
+    "header": {
+      "logo": "https://www.btgpactual.com/assets/images/logo.png",
+      "links": [
+        {
+          "texto": "Sobre nós",
+          "url": "https://www.btgpactual.com/sobre-nos"
+        },
+        {
+          "texto": "Produtos",
+          "url": "https://www.btgpactual.com/produtos"
+        },
+        {
+          "texto": "Contato",
+          "url": "https://www.btgpactual.com/contato"
+        }
+      ]
+    },
+    "slider": {
+      "imagens": [
+        "https://www.btgpactual.com/assets/images/slide1.jpg",
+        "https://www.btgpactual.com/assets/images/slide2.jpg",
+        "https://www.btgpactual.com/assets/images/slide3.jpg"
+      ]
+    },
+    "destaques": {
+      "titulo": "Destaques",
+      "itens": [
+        {
+          "titulo": "Investimentos",
+          "descricao": "Conheça nossas opções de investimento.",
+          "imagem": "https://www.btgpactual.com/assets/images/investimentos.jpg",
+          "url": "https://www.btgpactual.com/investimentos"
+        },
+        {
+          "titulo": "Empréstimos",
+          "descricao": "Obtenha empréstimos com as melhores taxas.",
+          "imagem": "https://www.btgpactual.com/assets/images/emprestimos.jpg",
+          "url": "https://www.btgpactual.com/emprestimos"
+        }
+      ]
+    },
+    "footer": {
+      "endereco": "Av. Brigadeiro Faria Lima, 3477 - Itaim Bibi, São Paulo - SP, 04538-133",
+      "telefone": "(11) 3383-2000",
+      "redesSociais": {
+        "facebook": "https://www.facebook.com/btgpactualoficial",
+        "twitter": "https://twitter.com/btgpactual",
+        "instagram": "https://www.instagram.com/btgpactual",
+        "linkedin": "https://www.linkedin.com/company/btgpactual/"
+      }
+    },
+    "depoimentos": [
+      {
+        "nome": "Ariane Santos",
+        "opiniao": "Apesar da gente ser um banco de investimentos, a gente usa tecnologia de ponta."
+      },
+      {
+        "nome": "Milena Oliveira",
+        "opiniao": "Eu participei de uma edição feita só por mulheres e eu posso dizer que foi incrível."
+      },
+      {
+        "nome": "Felipe Marques",
+        "opiniao": "Fazemos tudo isso com muita diversão, respeitando o perfil de cada pessoa."
+      }
+    ],
+    "vagas": [
+      {
+        "titulo":"Analista de Tecnologia - Vaga Afirmativa para Pessoas com Deficiência",
+        "cidade":"São Paulo, Rio de Janeiro e Teletrabalho"
+      },
+      {
+        "titulo":"Engenheiro(a) de Software",
+        "cidade":"São Paulo, Teletrabalho"
+      },
+      {
+        "titulo":"Engenheiro(a) de Software (Java - SpringBoot)",
+        "cidade":"São Paulo"
+      },
+      {
+        "titulo":"Especialista em Análise de Dados",
+        "cidade":"São Paulo"
+      },
+      {
+        "titulo":"Desenvolvedor de Software",
+        "cidade": "São Paulo ou Rio de Janeiro (Híbrido)"
+      },
+      {
+        "titulo":"Especialista de Dados",
+        "cidade":"São Paulo"
+      }
+    ]
+  }
+  
